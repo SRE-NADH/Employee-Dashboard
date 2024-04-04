@@ -1,8 +1,16 @@
-# React + Vite
+# Employee Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The Employee Dashboard is a web application built with React and Vite that allows users to view employee data, delete individual employees, and select multiple employees for various actions.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- View a list of employees with their details such as name, ID, and age.
+- Delete individual employees from the list.
+- Select multiple employees by clicking on them, enabling batch actions.
+- Perform batch actions on selected employees, such as deleting them 
+
+## Technologies Used
+
+- React
+- Vite
+- React Router 
