@@ -1,0 +1,33 @@
+.employee-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.employee-details>div{
+    background-color: white;
+    padding: 20px;
+    min-width: 300px;
+    border-radius: 5px;
+   
+
+}
+.employee-details p{
+    background-color: var(--primary-color);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    color: var(--font-color);
+    font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.5rem;
+
+}
+.employee-details h1{
+    font-size: 3rem;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
